@@ -1,0 +1,160 @@
+ .skilled {
+     color: var(--background-color-black);
+     height: 600px;
+     width: 100%;
+     padding: 2.8rem;
+     position: relative;
+     overflow: hidden;
+ }
+
+ .skilled_bar {
+     width: 80%;
+     margin: 0 auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+
+ }
+
+ .skills_teacher_go {
+     border: none;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 1.5rem;
+     cursor: pointer;
+ }
+
+ .skills_teacher_go>svg {
+     background-color: var(--h-background-orange-color);
+     padding: 2px;
+     color: #fff;
+ }
+
+ .skills_teacher_go :first-child {
+     margin-right: 4px;
+ }
+
+ .teachers_line {
+     overflow-x: scroll;
+     scroll-behavior: smooth;
+
+     cursor: pointer;
+     width: 80%;
+     height: 480px;
+     overflow-y: hidden !important;
+     margin: 0 auto;
+ }
+
+ ::-webkit-scrollbar {
+     width: 4px;
+     border: 1px solid #d5d5d5;
+     border-radius: 20px;
+ }
+
+ ::-webkit-scrollbar-track {
+     border-radius: 20px;
+     background: #eeeeee;
+ }
+
+ ::-webkit-scrollbar-thumb {
+     border-radius: 20px;
+     background: var(--h-background-orange-color);
+ }
+
+ .wrapper_teachers {
+     height: 500px;
+     width: 100%;
+     position: -webkit-sticky;
+     display: flex;
+     align-items: flex-start;
+     text-align: center;
+
+ }
+
+ .content_teacher {
+     width: 300px;
+     margin-top: 32px;
+     height: 450px;
+     background-color: #fff;
+     position: relative;
+     margin: 8px;
+     transition: all 1s;
+ }
+
+ .img_teacher {
+     width: 300px;
+     height: 300px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-image: url("https://tinypng.com/images/social/developer-api.jpg");
+ }
+
+ .teacher_about {
+     margin-top: 16px;
+     line-height: 2rem;
+ }
+
+ .btn_network>a>svg {
+     width: 45px;
+     transition: var(--transitions);
+     cursor: pointer;
+     margin-top: 8px;
+     font-size: 1.5rem;
+     color: var(--h-background-orange-color);
+ }
+
+ .btn_network>a>svg:hover {
+     color: var(--background-color);
+ }
+
+
+ .swiper {
+     width: 100%;
+     height: 100%;
+ }
+
+ .swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     background: #fff;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     -webkit-justify-content: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     -webkit-align-items: center;
+     align-items: center;
+ }
+
+ .swiper-slide img {
+     display: block;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+
+ @media screen and (max-width: 800px) {
+     .skilled {
+         padding: 2rem 0;
+         height: 500px;
+     }
+    .skilled_bar > h1{
+        font-size: 1.4rem;
+}
+     .img_teacher {
+         width: 200px;
+         height: 200px;
+     }
+
+     .teachers_line {
+         height: 380px;
+     }
+
+ }

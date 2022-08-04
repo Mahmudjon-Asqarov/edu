@@ -1,0 +1,81 @@
+.wrapper_video_component {
+    width: 100%;
+    height: 400px;
+    background-image: url("https://thumbs.dreamstime.com/b/students-computer-monitor-showing-thumbs-up-education-techology-internet-concept-group-smiling-school-35777350.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: -150px;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.video_component {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    z-index: 99;
+    background-position: center;
+    background-color: #0021479c;
+}
+
+.video_component>p {
+    line-height: 1.5rem;
+    width: 605px;
+
+}
+
+.btn_video {
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.btn_video:hover {
+    color: var(--h-background-orange-color);
+}
+
+.video_show {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    overflow-x: hidden;
+    height: 200vh;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000b4;
+    z-index: 99 !important;
+}
+
+.wrapper_videobar {
+    width: 550px;
+    position: relative;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.youtube_video {
+    width: 560px;
+    height: 315px;
+}
+
+.close {
+    position: absolute;
+    font-size: 25px;
+    top: -135px;
+    right: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+    

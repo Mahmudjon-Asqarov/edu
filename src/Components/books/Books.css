@@ -1,0 +1,60 @@
+.wrapper_swiper {
+    overflow: hidden;
+    width: 90;
+    height: 650px;
+    margin: 0 auto;
+    background-color: #fff;
+    color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 0;
+}
+
+.books_bar {
+    margin-top: 32px !important;
+}
+
+.books_show {
+    width: 90%;
+    height: 550px;
+    margin: 0 auto;
+}
+
+.img_book {
+    /* width: 50px; */
+    margin-top: -50px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    cursor: grab;
+    text-align: center;
+    font-size: 18px;
+    -webkit-box-shadow: 0px 0px 17px -10px rgba(0, 33, 71, 1);
+    -moz-box-shadow: 0px 0px 17px -10px rgba(0, 33, 71, 1);
+    box-shadow: 0px 0px 17px -10px rgba(0, 33, 71, 1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
